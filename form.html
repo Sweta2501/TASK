@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <header id="title">
+        <h1> Survey Form From DECODE-HUB</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="description">
+                <p>We would love your feedback on this survey!! Please take a few moments to answer to the best of your ability.</p>
+            </div>
+            <form id="survey-form">
+                <div id="row-tab">
+                    <div class="label-tab"><label>Name</label></div>
+                    <div class="input-tab"><input type="text" name="Name" placeholder="Enter your Name"></div>
+                </div>
+                <div id="row-tab">
+                    <div class="label-tab"><label>Email</label></div>
+                    <div class="input-tab"><input type="email" name="Email" placeholder="Enter your Email ID"></div>
+                </div>
+                <div id="row-tab">
+                    <div class="label-tab"><label>Age</label></div>
+                    <div class="input-tab"><input type="number" name="Age" placeholder="Enter your Age"></div>
+                </div>
+                <div id="row-tab">
+                    <div class="label-tab"><label>Which option best describe your current role?</label></div>
+                    <div class="select-tab">
+                        <select id="select-box">
+                            <option> </option>
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>JobSeeker</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="row-tab">
+                    <div class="label-tab"><label>How likely you would recommend DECODE-HUB to your friends?</label></div>
+                    <div class="input-tab">
+                        <div><input type="radio" name="suggest" value="Definitely"><label>Definitely</label></div>
+                        <div><input type="radio" name="suggest" value="Maybe"><label>May Be</label></div>
+                        <div><input type="radio" name="suggest" value="Not sure"><label>Not Sure</label></div>
+                    </div>
+                </div>
+                <div id="row-tab">
+                    <div class="label-tab"><label>What do you like about D-H:</label></div>
+                    <div class="select-tab">
+                        <select id="select-box">
+                            <option>Select an option</option>
+                            <option>Coding</option>
+                            <option>Learning</option>
+                            <option>Coding & Learning</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="label-tab"><label>Things that should be improved in the future:</label></div>
+                    <div class="input-tab">
+                        <div><input type="radio" name="project" value="Front-end Project"><label>Front-End Project</label></div>
+                        <div><input type="radio" name="project" value="Back-end Project"><label>Back-End Project</label></div>
+                        <div><input type="radio" name="project" value="ML Project"><label>Machine Learning Project</label></div>
+                        <div><input type="radio" name="project" value="Data Visualization"><label>Data Visualization</label></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
